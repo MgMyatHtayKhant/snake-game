@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  padding: 0.5rem;
+}
+
+.game-container {
+  text-align: center;
+}
+
+.game-display {
+  border: 3px solid black;
+}
+
+.score {
+  font-size: 3rem;
+}
+
+.reset-btn {
+  padding: 0.5rem;
+  border: 3px solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  opacity: 0.5;
+}
+
+.reset-btn:active {
+  opacity: 1;
+  transform: scale(0.9);
+}
